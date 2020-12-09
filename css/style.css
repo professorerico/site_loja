@@ -1,0 +1,89 @@
+*, *:before, *:after {/*Seletor universal*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+body { /*Elemento = tag da linguagem HTML*/
+    font-size: 18px;
+    font-family: arial, sans-serif;
+    line-height: 1.4;
+    color: #333333;
+    background: #333333;
+}
+
+.tudo {/* Cria um classe CSS */
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.topo {
+    width: 100%;
+    line-height: 1;
+    padding: 1px 20px 10px 20px;
+}
+
+.topo h1 {
+    font-size: 36px;
+    margin: 4px 0 2px 0;
+    text-align: right;
+}
+
+.topo a{
+    color: #990000;
+    text-decoration: none;
+}
+
+.topo h2 {
+    font-size: 20px;
+    margin: 2px 0 4px 0;
+    text-align: right;
+}
+
+nav > ul {
+    margin-left: 50px;
+    width:  100%;
+    background: #990000;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    border-top: 1px solid #990000;
+    width: 100%;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+}
+
+.topo ul li {
+    list-style: none;
+    display: inline;
+}
+
+.topo ul li a {
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-right: 1px solid #ffffff;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: #990000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topo ul li:last-child a {
+    border: none;
+}
+.topo ul li a:hover, .home .corrente {
+    color: #990000;
+    background: rgb(255,185,185);
+}
+
