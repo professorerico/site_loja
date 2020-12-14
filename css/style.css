@@ -89,11 +89,12 @@ nav{
 }
 
 form {
-    margin: 0 auto 1em;
+    margin: 0 2.7em 1em;
     width: 600px;
     padding: 1em;
     border: 1px solid #cccccc;
     border-radius: 1em;
+    display: inline-block;
 }
 
 fieldset {
@@ -142,7 +143,7 @@ textarea {
     border-radius: 1em;
 }
 
-.info > h1{
+.info h1{
     text-align: left;
 }
 
@@ -154,10 +155,23 @@ textarea {
     font-weight: bolder;
 }
 
+.msg{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    float: left;
+    margin: 0.5em;
+}
+
 .imgcontato {
+    width: 250px;
+    padding-top: 42px;
+    height: 250px;
+    position: relative;
+    float: right;
+    margin: 0.5em;
+}
+
+.imgcontato img {
     width: 200px;
-    background-attachment: fixed;
-    background-size: cover;
-    position: static;
-    display: inline-block
 }
