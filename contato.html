@@ -25,27 +25,44 @@
                 </ul>
             </nav>
         </header>
-        <div class="formulario">
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Formulário para Mensagem</legend>
-                    <div>
-                        <label for="nome">Nome:</label>
-                        <input type="text" name="nome" id="nome" required>
+        <div class="info"> <!--Regras do formulário-->
+            <h1>Formas de Contato:</h1>
+            <ul>
+                <li><span>Telefone: </span>(86)99999-0000</li>
+                <li><span>Mensagem: </span></li>
+                <ul>
+                    <li><span>Whatsapp: </span>(86)99999-0000</li>
+                    <li><span>Telegram: </span>@Canal</li>
+                    <li><span>Instagran: </span>@usuario</li>
+                </ul>
+                <li><span>Endereço: </span></li>
+                <li><span>Ou utilizando o formulário abaixo:</span></li>
+            </ul>
+            <div>
+                <img  class="imgcontato" src="./img/contatos.png" alt="Contatos">
+            </div>
+            <div>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Formulário para Mensagem</legend>
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="msg">Mensagem</label>
+                            <textarea name="msg" required></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="botao">
+                        <button type="submit">Enviar Mensagem</button>
                     </div>
-                    <div>
-                        <label for="email">E-mail:</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div>
-                        <label for="msg">Mensagem</label>
-                        <textarea name="msg" required></textarea>
-                    </div>
-                </fieldset>
-                <div class="botao">
-                    <button type="submit">Enviar Mensagem</button>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
         <footer class="rodape">
 
