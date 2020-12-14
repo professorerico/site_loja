@@ -25,7 +25,7 @@ body { /*Elemento = tag da linguagem HTML*/
     padding: 1px 20px 10px 20px;
 }
 
-.topo h1 {
+.topo h1, .info h1 {
     font-size: 36px;
     margin: 4px 0 2px 0;
     text-align: right;
@@ -89,7 +89,7 @@ nav{
 }
 
 form {
-    margin: 0 auto;
+    margin: 0 auto 1em;
     width: 600px;
     padding: 1em;
     border: 1px solid #cccccc;
@@ -133,4 +133,31 @@ textarea {
     vertical-align: top;
     height: 5em;
     resize: vertical;
+}
+
+.info {
+    margin: 1em auto;
+    width: 700px;
+    border: 1px solid #cccccc;
+    border-radius: 1em;
+}
+
+.info > h1{
+    text-align: left;
+}
+
+.info ul li {
+    list-style-type: none;
+}
+
+.info span {
+    font-weight: bolder;
+}
+
+.imgcontato {
+    width: 200px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: static;
+    display: inline-block
 }
